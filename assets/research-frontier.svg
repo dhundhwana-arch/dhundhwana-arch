@@ -1,0 +1,33 @@
+<svg viewBox="0 0 1200 180" width="1200" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Future Research Frontier Visualization">
+  <defs>
+    <linearGradient id="frBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#050814"/>
+      <stop offset="50%" stop-color="#0C1328"/>
+      <stop offset="100%" stop-color="#09071A"/>
+    </linearGradient>
+    <linearGradient id="frLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+  <style>
+    @keyframes glowNode { 0%, 100% { opacity: 0.65; } 50% { opacity: 1; } }
+    .nd { animation: glowNode 3.2s ease-in-out infinite; }
+  </style>
+  <rect width="1200" height="180" rx="12" fill="url(#frBg)" stroke="#1E293B" stroke-width="1.5"/>
+  <text x="48" y="42" fill="#38BDF8" font-family="ui-monospace, monospace" font-size="13" letter-spacing="2.5">
+    LONG-HORIZON SCIENTIFIC INTERESTS (EXPLORATORY RESEARCH FRONTIER — NOT COMPLETED ACHIEVEMENTS)
+  </text>
+  <line x1="80" y1="104" x2="1120" y2="104" stroke="url(#frLine)" stroke-width="2" opacity="0.8"/>
+
+  <g class="nd" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#E2E8F0" text-anchor="middle">
+    <circle cx="100" cy="104" r="7" fill="#38BDF8"/><text x="100" y="138">Advanced AI</text>
+    <circle cx="268" cy="104" r="7" fill="#0EA5E9"/><text x="268" y="138">Semiconductors</text>
+    <circle cx="436" cy="104" r="7" fill="#6366F1"/><text x="436" y="138">Quantum Tech</text>
+    <circle cx="604" cy="104" r="7" fill="#8B5CF6"/><text x="604" y="138">Robotics</text>
+    <circle cx="772" cy="104" r="7" fill="#A78BFA"/><text x="772" y="138">Space Tech</text>
+    <circle cx="940" cy="104" r="7" fill="#34D399"/><text x="940" y="138">Neuroscience</text>
+    <circle cx="1100" cy="104" r="7" fill="#10B981"/><text x="1100" y="138">Discovery</text>
+  </g>
+</svg>
